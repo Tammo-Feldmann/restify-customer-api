@@ -17,7 +17,7 @@ exports.authenticate = (email, password) => {
         } else {
 
           //Pass didn't match
-          reject('Authenticaion Failed');
+          reject('Authentication Failed');
         }
       }
       )
